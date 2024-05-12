@@ -1,16 +1,17 @@
 // singleton
 //if object is made from singleton from constructor, it means that
-//ir is unique object of it's type
+//it is unique object of it's type
 //but if you make it form another way
 
 //constructoe method which makes a singleton
 Object.create
 //
-//object literals
+
 const mySym = Symbol("key1")
+//object literals
 const JsUser = {
     name: "Mritunjay",
-    "full name": "Mritunjay Sharma",//can use it with object.key 
+    "full name": "Mritunjay Sharma",//can't use it with object.key 
     [mySym]: "mykey1",//that's how to declare symbol in object
     age: 24,
     location: "Bharatpur",
